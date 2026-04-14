@@ -241,6 +241,13 @@ This module includes the Playwright MCP for visual verification:
 
 ---
 
+## Troubleshooting
+
+**Commands not recognized?**
+If `/EA-plan`, `/EA-build`, or other commands aren't available, run `/EA-install` first to install the workflow skills to your project. You can verify they're loaded by checking for a `.claude/commands/` directory in your repo.
+
+---
+
 ## Quick Reference
 
 **Minimum workflow**: Plan → Build → Validate → Commit
